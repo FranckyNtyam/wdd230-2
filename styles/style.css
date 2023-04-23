@@ -21,6 +21,11 @@ h1 {
 p {
   font-family: Arial, Helvetica, sans-serif;
 }
+ hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
 
 header {
     display: grid;
@@ -58,9 +63,6 @@ header {
   .main ul {
     grid-row: 2;
     justify-items: center;
-  }
-.main hr {
-    width: 10px;
   }
   .main p{
     grid-row: 3;
