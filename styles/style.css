@@ -21,12 +21,6 @@ h1 {
 p {
   font-family: Arial, Helvetica, sans-serif;
 }
- hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
-    width: 20px;
-  }
 
 header {
     display: grid;
