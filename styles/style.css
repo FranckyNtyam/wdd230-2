@@ -59,6 +59,9 @@ header {
     grid-row: 2;
     justify-items: center;
   }
+.main hr {
+    width: 10px;
+  }
   .main p{
     grid-row: 3;
     justify-items: center;
