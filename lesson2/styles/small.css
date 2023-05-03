@@ -62,8 +62,8 @@ img {
 h4, a,p {
   padding: 10px;
 }
-p .design_principles {
-  font-weight: bold;
+.design_principles {
+  font-weight: bolder;
 }
 
 main {
