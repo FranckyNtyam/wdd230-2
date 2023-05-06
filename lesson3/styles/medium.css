@@ -1,0 +1,42 @@
+@media only screen and (min-width: 600px){
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin: auto;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+    .image_header {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    img {
+        width: 250;
+        margin: 0;
+    
+    }
+    .image_header, img, nav, footer {
+        border-radius: 20px;
+    }
+    .persona {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .persona img {
+        grid-column: 1;
+        
+    }
+    .persona .persona-infos  {
+        grid-column: 2;
+        
+    }
+}
