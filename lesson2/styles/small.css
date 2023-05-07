@@ -62,6 +62,9 @@ img {
 h4, a,p {
   padding: 10px;
 }
+.design_principles {
+  font-weight: bolder;
+}
 
 main {
       display: grid;
