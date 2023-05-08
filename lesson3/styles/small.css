@@ -52,11 +52,11 @@ nav ul li a {
 }
 
 ul li {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 p,li {
-   line-height: 2;
+   line-height: 0.88;
 }
 
 a {
@@ -73,7 +73,7 @@ main {
     background-color: #a6a6a6;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: stretch;
+    
 }
 .persona-container > div {
     padding: 20px;
