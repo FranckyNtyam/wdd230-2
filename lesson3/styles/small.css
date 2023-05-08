@@ -8,6 +8,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
 }
 
 h1 {
@@ -66,22 +67,19 @@ main {
     display: block;
     padding: 1.8em;
 }
-.persona {
-    display: grid;
-    grid-template-rows: 400px 1fr;
-    
+
+.persona-container {
+    display: flex;
+    background-color: #a6a6a6;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
 }
-.persona img {
-    grid-row: 1;
-    
+.persona-container > div {
+    padding: 20px;
+    line-height: 0%;
 }
-.persona .persona-infos {
-    grid-row: 2;
-   
-}
-.persona-infos p, li{
-    line-height: 1.4;
-}
+
 .persona img {
     width: 100%;
 }
