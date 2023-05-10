@@ -7,13 +7,15 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    
+    font-family: 'Roboto Mono', monospace;
+    
     margin: 10px;
 }
 
 h1 {
     margin: 1em;
-    color: #f0f8ff;
+    color: #3e3f32;
     text-align: center;
 }
 
@@ -62,7 +64,10 @@ li {
 a {
     text-decoration: none;
 }
-
+p, li {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 200%;
+}
 main {
     display: block;
     padding: 1.8em;
