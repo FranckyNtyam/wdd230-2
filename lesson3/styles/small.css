@@ -15,7 +15,7 @@ body {
 
 h1 {
     margin: 1em;
-    color: #3e3f32;
+    color: #56574c;
     text-align: center;
 }
 
@@ -89,7 +89,7 @@ main {
     width: 100%;
 }
 .primary {
-    background: aliceblue ;
+    background: #56574c;
     color: var(--accent-color);
 }
 .secondary {
