@@ -15,7 +15,7 @@ body {
 
 h1 {
     margin: 1em;
-    color: #56574c;
+    color: #272823;
     text-align: center;
 }
 
@@ -85,8 +85,8 @@ main {
     width: 100%;
 }
 .primary {
-    background: #56574c;
-    color: var(--accent-color);
+    background: #272823;
+    color: aliceblue;
 }
 .secondary {
     background: #a6a6a6;
@@ -94,6 +94,7 @@ main {
 }
 .background {
     background: #3e3f32;
+    color: aliceblue;
 }
 th, td {
     padding: 1em 2em;
