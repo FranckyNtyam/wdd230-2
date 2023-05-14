@@ -19,96 +19,79 @@ h1 {
     color: #272823;
     text-align: center;
 }
-
-img {
-    width: 100%;
-   
-}
-.social {
-    display: flex;
-}
-.image_header {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #a6a6a6;
-    
-}
-
-img {
-    width: 200px;
-    margin-top: 10px;
-    border-radius: 20px;
-}
-
 nav {
-   text-align: center;
-   background-color: #3e3f32;
-   padding: 10px;
-   
+	max-width: 700px;
+	margin: 10px auto;
 }
 
-nav ul {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style-type: none;
+/* small view navigation */
+#hamButton {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: .5rem;
+	color: navy;
+}
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #3e3f32;
+}
+.navigation li {
+	display: none;
+}
+.navigation li a {
+	padding: 1.15rem;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation li a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+/* when the button is clicked - the responsive class is added and accounted for here */
+.navigation.responsive li {
+	display: block;
+	width: 100%;
+}
+.navigation.responsive li a {
+	display: block;
 }
 
-nav ul li a {
-    color: aliceblue;
-    
+header {
+    background-color: #3e3f32;
 }
 
-ul li {
-    text-transform: capitalize;
+#header {
+    display: grid;
+    grid-template-columns: 80px 100px auto 30px 30px;
+    background-color: #3e3f32;
+    column-gap: 10px;
+}
+img {
+    grid-column: 1;
+
+}
+h1 {
+    grid-column: 2;
 }
 
-a {
-    text-decoration: none;
+.facebook {
+    grid-column: 4;
 }
-p, li {
-    font-family: 'Roboto Condensed', sans-serif;
-    line-height: 200%;
+.linkedin {
+    grid-column: 5;
 }
-main {
-    max-width: 90%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+nav {
+    grid-column: 3;
 }
-
-.persona-container {
-    display: flex;
-    background-color: #a6a6a6;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-}
-.persona-container > div {
-    padding: 20px;
-    line-height: 0%;
-}
-
-.persona img {
-    width: 100%;
-}
-.primary {
-    background: #272823;
-    color: aliceblue;
-}
-.secondary {
-    background: #a6a6a6;
-    color: var(--accent-color);
-}
-.background {
-    background: #3e3f32;
-    color: aliceblue;
-}
-th, td {
-    padding: 1em 2em;
-}
-
 footer {
     background-color: #3e3f32;
     display: block;
