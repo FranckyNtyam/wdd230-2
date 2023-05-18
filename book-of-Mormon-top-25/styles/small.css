@@ -19,6 +19,9 @@ h1 {
 	color: black;
   	background-color: lightgray;
 }
+h3 {
+	margin: 20px;
+}
 
 main {
 	margin: 0.5rem auto;
