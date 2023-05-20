@@ -36,9 +36,7 @@
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 10px;
 }
-.spotlight .spotlight3 {
-	display: none;
-}
+
 .join {
     grid-row: 4;
     grid-column: 1 / span 3;

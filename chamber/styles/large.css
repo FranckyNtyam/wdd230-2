@@ -90,6 +90,8 @@
 	}
 	.section3 {
 		display: flex;
+		text-align: center;
+		margin-left: 100px;
 	}
 	.vertical-ligne {
 		display:initial;
