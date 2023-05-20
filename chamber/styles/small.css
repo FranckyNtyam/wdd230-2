@@ -5,102 +5,116 @@
 * {
     box-sizing: border-box;
 }
-
+/*Body Styles*/
 body {
-    
+    display: block;
     font-family: 'Roboto Mono', monospace;
-    
-    margin: 10px;
+	max-width: 1300px;
+	min-width: 350px;
+    margin: 0 auto;
     text-align: center;
+}
+
+img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.logo {
+	width: 50%;
+	border-radius: 20px;
+	padding: 10px;
 }
 
 h1 {
-    margin: 1em;
-    color: #272823;
+    color: #e5e8d9;
     text-align: center;
+	padding: 2px;
 }
+/*Header Styles*/
+header  {
 
-
-/* small view navigation */
-#hamButton {
-	display: block;
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	width: fit-content;
-	font-size: 1.5rem;
-	margin-top: 10px;
-	margin-right: 10px;
-	padding: 0.5rem;
-	color: navy;
-}
-
-.navigation li {
-	display: none;
-}
-.navigation li a {
-	padding: 1.15rem;
-	display: block;
-	text-align: center;
-	text-decoration: none;
+	background-color: #3e3f32;
+	display: grid;
+	grid-template-columns: 2f 1fr;
+	margin-bottom: 7%;
+	padding: 0 3% 4% 3%;
 	color: #fff;
 }
-.navigation li a:hover {
+/*first div of header contain image and heading Styles*/
+.image-heading {
+	display: flex;
+    align-items: center;
+}
+.chamber-name {
+	text-align: left;
+	font-size: 60%;
+	padding: 7%;
+}
+.chamber-name h1 {
+	margin-bottom: -7%;
+}
+
+/*second div contain navigation and social media icon styles*/
+.hambutton-social-media {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+/*socio media styles*/
+.social-media-icon {
+	display: flex;
+}
+.social-media-icon a {
+	margin-right: 10%;
+	width: 40%;
+}
+/* small view navigation */
+#hamButton {
+	background-color: #e9eadf;
+	
+	width: fit-content;
+	font-size: 2rem;
+	
+	margin-right: 10px;
+	
+	color:#3a3838;
+}
+
+#navigation ul {
+	list-style: none;
+	font-weight: 700;
+	color: #fff;
+}
+#navigation li a:hover {
 	background-color: #bbb;
 	color: #333;
 	font-weight: 700;
 }
 /* when the button is clicked - the responsive class is added and accounted for here */
-.navigation.responsive li {
+#navigation li {
 	display: block;
 	width: 100%;
 }
-.navigation.responsive li a {
+#navigation li a {
 	display: block;
+	color: #e9eadf;
+}
+header nav {display: none;}
+header nav.open {
+    display: block;
+    grid-column: 1/4;
+    border-bottom: 1px solid rgba(74, 71, 71, 0.5);
+    margin-bottom: 2%;
+}
+/*current time*/
+#datetime {
+    grid-column: 1/4;
+    background-color: #eee3e3;
+    color: rgb(26, 25, 25);
+    padding: 2% 0 2% 0;
 }
 
-header {
-    background-color: #3e3f32;
-}
-
-.header-container {
-    display: grid;
-    grid-template-columns:auto;
-	
-}
-.image-heading {
-    grid-column: 1;
-	display: flex;
-
-}
-.logo {
-	margin: 20px;
-	border-radius: 100px;
-	min-width: none;
-	
-	
-
-}
-.socio-media-icon {
-	grid-column: 3;
-	
-
-}
-.social-logo-facebook{
-    margin-top: 20px;
-	border-radius: 10px;
-	width: 20%;
-}
-.social-logo-linkedin{
-    margin-top: 20px;
-	margin-right: 50px;
-	border-radius: 10px;
-	width: 20%;
-}
-.navigation {
-	grid-column: 2;
-	display: flex;
-}
 
 footer {
     background-color: #3e3f32;
