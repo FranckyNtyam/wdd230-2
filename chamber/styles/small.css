@@ -41,7 +41,7 @@ h1 {
 }
 /*Header Styles*/
 .header-container  {
-
+    width: auto;
 	background-color: #3e3f32;
 	display: grid;
 	grid-template-columns: 2f 1fr;
