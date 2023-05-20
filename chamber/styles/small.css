@@ -40,7 +40,7 @@ h1 {
 	padding: 2px;
 }
 /*Header Styles*/
-header  {
+.header-container  {
 
 	background-color: #3e3f32;
 	display: grid;
