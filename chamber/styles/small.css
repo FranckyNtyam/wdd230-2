@@ -124,7 +124,36 @@ header nav.open {
     padding: 2% 0 2% 0;
 }
 
-
+/*Main Styles*/
+.home-grid {
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+	gap:10px;
+	background-color: #bbb;
+	padding: 10px;
+}
+.home-grid > section {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	text-align: left;
+  }
+  .join {
+	display: none;
+  }
+.spotlight {
+	display: grid;
+	grid-template-rows: auto;
+	padding: 20px;
+}
+.spotlight > div {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 10px;
+}
+.spotlight .spotlight3 {
+	display: none;
+}
 footer {
     background-color: #3e3f32;
     display: block;
@@ -132,4 +161,13 @@ footer {
     color: aliceblue;
     font-size: 1em;
     padding: 10px;
+  }
+  footer a {
+	color: aliceblue;
+  }
+  footer .name {
+	font-weight: 600;
+  }
+  .vertical-ligne {
+	display: none;
   }
