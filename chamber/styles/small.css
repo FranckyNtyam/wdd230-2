@@ -42,8 +42,8 @@ h1 {
 
   background-color: #3e3f32;
   display: grid;
-  grid-template-columns: 2f 1fr;
-  margin: bottom 7%;
+  grid-template-columns: 1f 1fr;
+  margin-bottom: 7%;
   padding: 0 3% 4% 3%;
   color: #fff;
 }
