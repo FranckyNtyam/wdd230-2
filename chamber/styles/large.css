@@ -29,4 +29,7 @@
     .hambutton-socio-media {
         grid-column: 3/4;
     }
+	.logo {
+		width: 30%;
+	}
 }

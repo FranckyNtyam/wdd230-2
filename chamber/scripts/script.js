@@ -1,9 +1,18 @@
-const hamButton = document.querySelector('#hamButton');
-const navigation = document.querySelector('.navigation');
+//Current time
+let date1 = document.querySelector("#datetime");
 
-hamButton.addEventListener('click', () => {
-	navigation.classList.toggle('responsive');
-});
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+date1.innerHTML = fulldate;
+
+//Hamburger Menu
+function toggleMenu(){
+    document.querySelector("#navigation").classList.toggle("open");
+}
+
+const x = document.getElementById("hamButton");
+x.onclick = toggleMenu;
+
 
 let day = new Date(document.lastModified);
 let year = day.getFullYear();

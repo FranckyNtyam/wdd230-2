@@ -17,13 +17,21 @@ body {
 
 img {
 	width: 100%;
-	border-radius: 10px;
+	border-radius: 15px;
+	
 }
 
 .logo {
 	width: 50%;
 	border-radius: 20px;
 	padding: 10px;
+}
+.facebook-logo {
+	margin-left: 10px;
+
+}
+.linkedin-logo {
+	margin-left: 10px;
 }
 
 h1 {
@@ -75,9 +83,10 @@ header  {
 	
 	width: fit-content;
 	font-size: 2rem;
-	
-	margin-right: 10px;
-	
+	padding-left: 10px;
+	margin-right: 1px;
+	margin-left: 10px;
+	border-radius: 10px;
 	color:#3a3838;
 }
 
