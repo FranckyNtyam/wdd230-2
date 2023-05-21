@@ -154,6 +154,10 @@ header nav.open {
 .spotlight .spotlight3 {
   display: none;
 }
+section p {
+  font-size: small;
+  font-style: oblique;
+}
 footer {
   background-color: #3e3f32;
   display: block;
