@@ -158,6 +158,11 @@ section p {
   font-size: small;
   font-style: oblique;
 }
+.hero-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 footer {
   background-color: #3e3f32;
   display: block;
