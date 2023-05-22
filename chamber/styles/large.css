@@ -42,7 +42,7 @@
 	.hero-banner {
 		grid-row: 1 / span 2;
 		grid-column: 2 / span 2;
-		width: 575px;
+		
 	}
 	.news {
 		grid-column: 2 / span 2;
