@@ -136,6 +136,7 @@ header nav.open {
   grid-template-rows: repeat(5, 1fr);
   gap: 10px;
   padding: 10px;
+  
 }
 .home-grid > section {
   background-color: #3a3838;
