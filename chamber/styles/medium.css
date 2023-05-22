@@ -49,6 +49,34 @@
 .weather {
     grid-row: 5;
 }
+.hero-banner {
+    position: relative;
+    padding: 0%;
+  }
+  .hero-banner h2{
+    position: absolute;
+    margin-left: 2%;
+    color: #e5e8d9;
+  }
+  .hero-banner a {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    text-decoration: none;
+    position: absolute;
+    box-shadow: 3px 3px 3px #603613;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: beige;
+    color: black;
+  }
+  .hero-banner img {
+    position: absolute;
+    width: 96%;
+    height: 94%;
+      object-fit: cover;
+      
+  }
 footer {
     text-align: center;
 }

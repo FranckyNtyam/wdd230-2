@@ -42,6 +42,7 @@
 	.hero-banner {
 		grid-row: 1 / span 2;
 		grid-column: 2 / span 2;
+		width: 575px;
 	}
 	.news {
 		grid-column: 2 / span 2;
@@ -73,6 +74,25 @@
 		grid-row: 2;
 		grid-column: 1;
 	}
+	
+	  .hero-banner h2{
+		position: absolute;
+		margin-left: 2%;
+		color: #e5e8d9;
+	  }
+	  .hero-banner a {
+		position: absolute;
+		right: 10%;
+		bottom: 20%;
+		text-decoration: none;
+		position: absolute;
+		box-shadow: 3px 3px 3px #603613;
+		padding: 3%;
+		border-radius: 10px;
+		background-color: beige;
+		color: black;
+	  }
+	  
  /*footer styles*/
 	footer {
 		text-align: center;
