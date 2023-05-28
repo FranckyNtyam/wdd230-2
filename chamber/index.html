@@ -55,12 +55,14 @@
     </header>
     <main class="home-grid">
         <section class="hero-banner">
-            
-            <img class="yaounde-photo" src="images/photo-yaounde.webp" alt="Yaounde image">
-        
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/photo-yaounde.webp">
+                <source media="(max-width: 768px)" srcset="images/photo-yaounde.webp">
+                <source media="(max-width: 1024px)" srcset="images/photo-yaounde.webp">
+                <img class="yaounde-photo" src="images/photo-yaounde.webp" alt="Yaounde image">
+            </picture>
             <h2>Welcome To Yaounde</h2>
             <a href="join.html" class="join-us">Join Us</a>
-        
         </section>
 
 
