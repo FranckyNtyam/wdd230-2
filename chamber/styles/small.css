@@ -198,6 +198,33 @@ section p {
     object-fit: cover;
     
 }
+#condition {
+  display: block;
+  color: #ede5e7;
+  margin-top: -25px;
+}
+
+.weather {
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+.weather div {
+  height: 30%;
+  width: 80%;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.weather div p {
+  font-size: 150%;
+}
+
+.weather p {
+  margin: 0;
+}
 
 .join a {
   text-decoration: none;
