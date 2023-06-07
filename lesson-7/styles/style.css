@@ -2,9 +2,12 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto Mono", monospace;
-    max-width: 1300px;
-    min-width: 350px;
     margin: 0 auto;
     text-align: center;
   }
- 
+  
+img {
+    background: #F1F1FE;
+    width: 400px;
+    height: 300px;
+}

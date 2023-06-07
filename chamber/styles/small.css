@@ -125,8 +125,8 @@ header nav.open {
 /*current time*/
 #datetime {
   grid-column: 1/4;
-  background-color: #3e3f32;
-  color: rgb(233, 226, 226);
+  background-color: #9f9f9b;
+  color: rgb(41, 40, 40);
   padding: 2% 0 2% 0;
 }
 
